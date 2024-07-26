@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.add {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .pagination button.active {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li.note-item {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  li.deleting {
+    transform: scale(0);
+  }
+  
+  .note-item h3 {
+    margin: 0;
+  }
+  
+  .note-item small {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #bbb;
+  }
+  
